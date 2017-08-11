@@ -1,8 +1,3 @@
-Deprecation warning
-=======
-
-Unmaintained project. Please, use good alternative: [tersmitten.locales](https://galaxy.ansible.com/tersmitten/locales/)
-
 locale
 ========
 
@@ -22,7 +17,6 @@ Role Variables
  * *locale_address* - $LC_ADDRESS
  * *locale_telephone* - $LC_TELEPHONE
  * *locale_measurement* - $LC_MEASUREMENT
- * *locale_to_be_generated* - list of locales to be generated (take care to use value from /usr/share/i18n/SUPPORTED, as locale-gen exit with code 0 even with errors...)
 
 License
 -------
